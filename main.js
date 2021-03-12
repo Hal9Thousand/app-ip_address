@@ -40,7 +40,7 @@ const IPCIDR = require('ip-cidr');
     * @param {string} cidrStr - The IPv4 subnet expressed
     *                 in CIDR format.
     * @param {callback} callback - A callback function.
-    * @return {string} (firstIpAddress) - An IPv4 address.
+    * @return {object} (firstIpAddress, ipv6) - An IPv4 and IPv6 address.
     */
      getFirstIpAddress(cidrStr, callback) {
 
